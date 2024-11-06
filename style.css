@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contoh Tampilan dengan CSS</title>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   <style>
+       /* Tempelkan CSS di sini atau link ke file CSS eksternal */
+   </style>
+</head>
+<body>
+   <!-- Tambahkan judul utama dengan animasi -->
+   <h1>Judul Utama</h1>
+
+   <!-- Tambahkan logo kecil -->
+   <img src="https://w7.pngwing.com/pngs/429/946/png-transparent-spotify-streaming-media-podcast-music-playlist-spotify-logo-logo-musician-music-download-thumbnail.png" alt="Logo" class="small-logo">
+
+   <!-- Daftar poin-poin -->
+   <ul>
+       <li>Poin pertama</li>
+       <li>Poin kedua</li>
+       <li>Poin ketiga</li>
+   </ul>
+
+   <!-- Tooltip contoh -->
+   <p class="tooltip">Hover di sini
+       <span class="tooltiptext">Ini adalah tooltip!</span>
+   </p>
+
+   <!-- Gambar dengan animasi hover -->
+   <img src="https://via.placeholder.com/150" alt="Gambar" onclick="this.classList.toggle('animate')">
+</body>
+</html>
